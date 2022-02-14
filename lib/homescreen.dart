@@ -31,6 +31,8 @@ class _HomeScreenState extends State<HomeScreen>
         animation= CurvedAnimation(parent: _controller,curve: Curves.bounceOut);
     animation.addListener(() {
       setState(() {
+
+        
         
       });
       // print(_controller.value);
